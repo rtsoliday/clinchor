@@ -1,0 +1,7 @@
+#!/bin/sh
+
+sddsplot bunchLengthData -col=BunchCurrent,BunchLength -grap=sym,conn,fil,sca=3 -file
+
+sddshist CBMFreq CBMFreq.hist -data=MaxGrowthRate -bins=40 -cdf
+
+sddsplot CBMFreq.hist -sep -file -col=MaxGrowthRate,frequency -col=MaxGrowthRate,MaxGrowthRateCdf 

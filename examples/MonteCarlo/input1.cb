@@ -1,0 +1,36 @@
+&ringParameters
+   twissFile="./Basic.twi",
+    harmonicNumber=1296
+    bunchLengtheningFactor=1.00
+    rfVoltageMV = 9.5
+! given the location of the cavities, 1 m spaced and one in the center
+! beta_ave = beta_0 + 3/(2 beta_0)
+    betaxAtRFCavities = 19.565050
+    betayAtRFCavities = 3.4055020
+    parameters= "%s.para"
+&end
+&semaphores &end
+&symmetricBunchPattern
+   startBucket=0
+   bunches=24
+   totalCurrentMA=102
+&end
+&monopoleHOMs 
+    deQFactorMultiplier=1
+    filename="./monopole.modes"
+    detuneFundamental = 1,
+    keepFundamentalFixed = 1,
+&end
+&randomizeHOMFrequencies 
+    spread=0.271e6
+    samples=100
+    uniform=1
+    seed=123456789
+    CBMFrequencyFilename="./CBMFreq"
+    HOMFrequencyFilename="./HOMFreq"
+&end
+&doLongitudinalMotion 
+  CBMFrequencyFilename = "./growthRateOfLongCBMs.CBMFreq",
+  eigenvectorFilename  = "./longCBMs.h",
+&end
+&stop &end

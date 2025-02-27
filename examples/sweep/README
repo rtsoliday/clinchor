@@ -1,0 +1,6 @@
+run the commands
+
+clinchor input1.cb >! input1.cbout
+plotResults1
+clinchor input2.cb >! input2.cbout
+plotResults2

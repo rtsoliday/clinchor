@@ -1,0 +1,21 @@
+\begin{thebibliography}{1}
+
+\bibitem{ZAP}
+{M.S. Zisman, S. Chattopadhyay, and J.J. Bisognano}, ``{ZAP User's Guide},''
+  LBL 21270, Lawrence Berkeley Laboratory, December 1986.
+
+\bibitem{BBI}
+{B. Zotter}, ``{BBI - A Program to Compute Bunch Beam Instabilities in High
+  Energy Particle Accelerators and Storage Rings},'' CERN LEP/TH 89-74, CERN,
+  1989.
+
+\bibitem{PC-BBI}
+{J. Hagel and B. Zotter}, ``{PC-BBI, a Program to Compute Bunch Beam
+  Instabilities on a PC},'' CERN SL-AP 90-62, CERN, 1990.
+
+\bibitem{Thompson:PAC89}
+{K. Thompson and R. Ruth}, ``{Transverse and Longitudinal Coupled Bunch
+  Instabilities in Trains of Closely Spaced Bunches},'' in {\em {Proceedings of
+  the 1989 IEEE Particle Accelerator Conference}}, p.~792, 1989.
+
+\end{thebibliography}

@@ -1,0 +1,15 @@
+SDDS1
+&parameter name=Comment, type=string, &end
+&parameter name=Cavities, type=long, &end
+&column name=Frequency, units=Hz, type=double,  &end
+&column name=ShuntImpedance, symbol="R$bs$n", units=Ohm, description="Shunt Impedance", type=double,  &end
+&column name=Q, description="Quailty Factor", type=double,  &end
+&column name=RoverQ, symbol="R$bs$n/Q", units=Ohm, description="Shunt impedance divided by quality factor", type=double,  &end
+&column name=LossFactor, symbol=k, units=V/pC, description="Loss factor", type=double,  &end
+&column name=StaggeringStep, units=Hz, type=double,  &end
+&data mode=ascii, &end
+! page number 1
+" 351.93 MHz SPHERICAL CAVITY monopole modes                             "
+1
+                   1
+ 5.371910000000000e+08  1.720843000000000e+06  4.170400000000000e+04  4.126330000000000e+01  6.963718000000001e-02  2.100000000000000e+05 

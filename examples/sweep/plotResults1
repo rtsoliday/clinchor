@@ -1,0 +1,7 @@
+#!/bin/sh
+
+sddsplot sweep1.CBMfreq -sep=request -grap=line,vary -leg \
+  -col=HOMFrequency,RealCBMFrequency \
+  -col=HOMFrequency,ImagCBMFrequency \
+  -col=HOMFrequency,*DeltaCBMFrequency \
+

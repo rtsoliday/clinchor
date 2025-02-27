@@ -1,0 +1,72 @@
+&ringParameters
+    twissFile = ./Basic.twi,
+    energyGeV = 0.000000000000000e+00,
+    circumference = 0.000000000000000e+00,
+    energyLossPerTurnMeV = 0.000000000000000e+00,
+    rfVoltageMV = 9.500000000000000e+00,
+    harmonicNumber = 1296,
+    momentumCompaction = 0.000000000000000e+00,
+    relativeEnergySpread = 0.000000000000000e+00,
+    bunchLengtheningFactor = 1.000000000000000e+00,
+    bunchLengthTableFile = {NULL},
+    bunchLengthUsedFile = {NULL},
+    longDampingRate = 0.000000000000000e+00,
+    transDampingRate = 0.000000000000000e+00,
+    horizontalTune = 0.000000000000000e+00,
+    verticalTune = 0.000000000000000e+00,
+    betaxAtRFCavities = 1.956505000000000e+01,
+    betayAtRFCavities = 3.405502000000000e+00,
+    parameters = %s.para,
+&end
+Value of energyGeV taken from file: 7.000000e+00
+Value of energyLossPerTurnMeV taken from file: 5.353150e+00
+Value of momentumCompaction taken from file: 2.819121e-04
+Value of relativeEnergySpread taken from file: 9.550790e-04
+Value of longDampingTime taken from file: 4.816653e-03
+Value of transDampingTime taken from file: 9.626046e-03
+Value of horizontalTune taken from file: 3.620394e+01
+Value of verticalTune taken from file: 1.927180e+01
+Some calculated physical quantities:
+	revolution frequency (MHz):	0.271551
+	RF frequency (MHz):	351.930275
+	synchronous phase (deg):	34.297464
+	synchrotron angular frequency (rad/sec):	13776.411109
+	synchrotron frequency (Hz):	2192.583926
+	zero-current bunch length (m):	0.005859
+	bunch length used (m):	0.005859
+&semaphores
+    started = %s.started,
+    done = %s.done,
+    failed = %s.failed,
+&end
+Creating semaphore file input1.started
+&symmetricBunchPattern
+    startBucket = 0,
+    bunches = 24,
+    currentPerBucketMA = 0.000000000000000e+00,
+    totalCurrentMA = 1.020000000000000e+02,
+    clearPreviousPatterns = 0,
+&end
+&monopoleHOMs
+    filename = ./OneMonopole.mode,
+    clearPreviousMonopoleHOMs = 0,
+    deQFactorMultiplier = 1.000000000000000e+00,
+    Q = 0.000000000000000e+00,
+    staggeringStepMultiplier = 1.000000000000000e+00,
+    detuneFundamental = 0,
+    keepFundamentalFixed = 0,
+&end
+&sweepHOMFrequency
+    resonatorIndex = 0,
+    frequencyRange = 8.000000000000000e+06,
+    points = 1000,
+    filename = sweep1.CBMfreq,
+&end
+&doLongitudinalMotion
+    normalModes = 1,
+    doLaplace = 0,
+    eigenvectorFilename = {NULL},
+    CBMFrequencyFilename = {NULL},
+&end
+statistics:   ET:     00:00:01 CP:    1.02 BIO:0 DIO:0 PF:0 MEM:11269
+Creating semaphore file input1.done

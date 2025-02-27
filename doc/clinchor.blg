@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99c (Web2C 7.2)
+The top-level auxiliary file: clinchor.aux
+The style file: ieeetr.bst
+Reallocated wiz_functions (elt_size=4) to 3000 items from 0.
+Database file #1: coupledBunch.bib
+Warning--I didn't find a database entry for "SDDSformat"
+You've used 4 entries,
+            1876 wiz_defined-function locations,
+            509 strings with 4099 characters,
+and the built_in function-call counts, 622 in all, are:
+= -- 57
+> -- 16
+< -- 3
++ -- 8
+- -- 4
+* -- 38
+:= -- 108
+add.period$ -- 4
+call.type$ -- 4
+change.case$ -- 4
+chr.to.int$ -- 0
+cite$ -- 4
+duplicate$ -- 40
+empty$ -- 65
+format.name$ -- 4
+if$ -- 143
+int.to.chr$ -- 0
+int.to.str$ -- 4
+missing$ -- 1
+newline$ -- 15
+num.names$ -- 4
+pop$ -- 14
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 14
+stack$ -- 0
+substring$ -- 6
+swap$ -- 10
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 5
+width$ -- 5
+write$ -- 38
+(There was 1 warning)
