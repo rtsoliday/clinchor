@@ -2,7 +2,7 @@
 
 **clinchor** is a specialized software tool designed for the calculation of growth rates of multi-bunch beam modes in particle accelerators. It can be used to analyze and predict beam instabilities—a critical aspect of designing and operating high-performance accelerator systems.
 
-Detailed documentation is available in the **[clinchor manual](https://ops.aps.anl.gov/manuals/spiffe_latest/spiffe.pdf)**.
+Detailed documentation is available in the **[clinchor manual](https://ops.aps.anl.gov/manuals/clinchor_latest/clinchor.pdf)**.
 
 ## Features
 **clinchor** offers a robust set of capabilities tailored to beam physics analysis:
@@ -25,7 +25,7 @@ make
 ```
 
 ## Usage
-To get started with **clinchor**, consult the **[documentation](https://ops.aps.anl.gov/manuals/spiffe_latest/spiffe.pdf)** for comprehensive guidance on running the program, inputting parameters, and interpreting results. For practical examples, check the examples directory in the repository for sample use cases.
+To get started with **clinchor**, consult the **[documentation](https://ops.aps.anl.gov/manuals/clinchor_latest/clinchor.pdf)** for comprehensive guidance on running the program, inputting parameters, and interpreting results. For practical examples, check the examples directory in the repository for sample use cases.
 
 ## Authors
 - M. Borland
