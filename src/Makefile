@@ -30,7 +30,7 @@ ifeq ($(OS), Darwin)
 endif
 
 ifeq ($(OS), Windows)
-  CFLAGS += -I$(SDDS_REPO)/lzma -wd4244
+  CFLAGS += -I$(SDDS_REPO)/lzma -wd4101 -wd4244 -openmp $(MKL_CFLAG) $(MKL_INCLUDE)
   PROD_SYS_LIBS := $(MKL_LIB) $(PROD_SYS_LIBS)
   PROD_LIBS = mdbcommon.lib matlib.lib SDDS1.lib namelist.lib rpnlib.lib mdbmth.lib mdblib.lib lzma.lib z.lib
   LIB_LINK_DIRS = -LIBPATH:$(SDDS_REPO)/lib/$(OS)-$(ARCH)
