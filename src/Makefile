@@ -17,7 +17,7 @@ CFLAGS += -I$(SDDS_REPO)/include -I$(OBJ_DIR) -DUSE_GSL
 
 ifeq ($(OS), Linux)
   CFLAGS += -fopenmp $(MKL_CFLAG) $(MKL_INCLUDE) $(LAPACK_CFLAG) $(LAPACK_INCLUDE)
-  LDFLAGS := -L$(SDDS_REPO)/lib/$(OS)-$(ARCH) $(LDFLAGS)
+  LDFLAGS := -fopenmp -L$(SDDS_REPO)/lib/$(OS)-$(ARCH) $(LDFLAGS)
   PROD_SYS_LIBS := $(LZMA_LIB) $(GSL_LIB) $(GSLCBLAS_LIB) $(Z_LIB) $(PROD_SYS_LIBS) $(MKL_LIB) $(LAPACK_LIB)
   PROD_LIBS_SDDS = -lmdbcommon -lmatlib -lSDDS1 -lnamelist -lrpnlib -lmdbmth -lmdblib
 endif
